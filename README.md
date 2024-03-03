@@ -1,5 +1,3 @@
-# UCLA CS162 Course Project Guideline
-
 # Table of Contents
 
 1. [Installations](#installations)
@@ -24,14 +22,14 @@ Goto the above link to install the **miniconda3** corresponding to your OS.
 You can use the following commands for various conda operations:
 
 ```bash
-# cs162 is the name of the conda environment, you can name it anything you like.
-conda create -n cs162 python==3.10 pip
+# phi-eval is the name of the conda environment, you can name it anything you like.
+conda create -n phi-eval python==3.10 pip
 
 # You can list all the conda envs using the following command.
 conda info --envs
 
 # Activate the conda env.
-conda activate cs162
+conda activate phi-eval
 
 # The below command will bulk install everything needed except the current project.
 pip install -r requirements.txt
@@ -50,9 +48,9 @@ conda deactivate
 This is a nice [guide](https://realpython.com/python-virtual-environments-a-primer/) about setting up virtual environment, we recommend doing the followings:
 
 ```bash
-python3 -m venv where_ever/you/want/cs162
+python3 -m venv where_ever/you/want/phi-eval
 
-source where_ever/you/want/cs162/bin/activate
+source where_ever/you/want/phi-eval/bin/activate
 
 # And use the following to deactivate within a virtualenv.
 deactivate
